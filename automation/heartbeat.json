@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "environment": "production",
+  "component": "frontend-app",
+  "dependencies": {
+    "api-service": {
+      "status": "ok",
+      "latency": 25
+    },
+    "database": {
+      "status": "ok",
+      "latency": 10
+    }
+  },
+  "metrics": {
+    "active_users": 1234,
+    "memory_usage_mb": 256,
+    "cpu_usage_percent": 15
+  },
+  "build_info": {
+    "commit_hash": "a1b2c3d4e5f67890",
+    "build_date": "2024-10-26T18:00:00Z"
+  },
+  "custom_data": {
+    "message": "Frontend application is running smoothly."
+  }
+}
